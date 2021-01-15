@@ -1,53 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Infonetax</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style/normalize.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="nav">
-            <img src="./images/logo.png" alt="logo infonetax">
-            <ul class="menu">
-                <li><a href="#">Strona  główna</a></li>
-                <li><a href="#">Sklep</a></li>
-                <li><a href="#">Oferta</a></li>
-                <li><a href="#">Kontakt</a></li>
-            </ul>
-        </nav>
-        <div class="software-dedicated">
-            <span>Oprogramowanie dedykowane</span>
-            <button>zamów już dziś</button>
-        </div>
-        <div class="photo-header">
-            <div class="contact-box-main">
-                <div class="contact-box-header">
-                    <span>Nasi konsultancji są do Twojej dyspozycji</span>
-                </div>
-                <div class="contact-icon-call">
-                    <img src="./images/background-header.png" alt="kontakt">
-                </div>
-                <div class="contact-header-number">
-                    <a href="tel:+48 41 344 52 24">+48 41 344 52 24</a>
+    <div class="page">
+
+        <header>
+            <div class="nav">
+                <div class="nav-block">
+                    <nav>
+                        <img src="images/logo.png" alt="">
+                        <ul>
+                            <li>
+                                <a href="#">Strona główna</a>
+                            </li>
+                            <li>
+                                <a href="https://sklep.infonetax.pl">Sklep</a>
+                            </li>
+                            <li>
+                                <a href="#">Oferta</a>
+                            </li>
+                            <li>
+                                <a href="#">Kontakt</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="kwadrat"></div>
                 </div>
             </div>
-        </div>
-            <div class="header-box-description">
-                <div class="header-decription">
-                    <p>Tworzymy oprogramowanie, które jest dopasowane do Twoich potrzeb.<br>
-                        W swoich rozwiązaniach wykorzystujemy najnowsze technologie i sztuczną inteligencję Integrujemy się z wieloma systemami księgowymi i z innymi gotowymi rozwiązaniami.
-                    </p> 
-                    <a href="#">&#8744;	</a>
+            <section class="header">
+
+                <div class="header-background">
+                    <div class="header-btn-text">
+                        <p>Oprogramowanie dedykowane</p>
+                        <a href="#">zamów już dziś ></a>
+                    </div>
+                    <div class="header-contact-top">
+                        <!-- <div class="contact"> -->
+                        <div>
+                            <div class="consultant">Nasi konsultacji są do Twojej dyspozycji</div>
+                            <div class="border-icon-contact icon-between">
+
+                                <img src="./images/headphone.png" alt="tel">
+                            </div>
+                            <div><a href="tel:+48413445224">+48 41 344 52 24</a></div>
+                        </div>
+
+                        <!-- </div> -->
+                    </div>
+                    <div class="header-info-bottom">
+                        <div class="header-info-bottom-text">
+                            <p>Tworzymy oprogramowanie, które jest dopasowane do Twoich potrzeb.
+                                W swoich rozwiązaniach wykorzystujemy najnowsze technologie i sztuczną inteligencję
+                                Integrujemy się z wieloma systemami księgowymi i z innymi gotowymi rozwiązaniami.
+                            </p>
+                        </div>
+                        <div class="header-info-bottom-icon">
+                            <a href="#">&#8744; </a>
+                        </div>
+                    </div>
                 </div>
-                   
-                <!-- <div class="icon-description"> -->
-                <!-- </div> -->
-        </div>
-    </header>
+            </section>
+
+
+        </header>
+        <footer>
+            <div class="footer-img">
+                <!-- <img src="/images/footer-left.png" alt=""> -->
+                <div class="footer-text">
+                    <h1>Skontaktuj się</h1>
+                    <div class="footer-address">
+                        <div>
+                            <span>siedziba naszego biura</span>
+                        </div>
+                        <div>
+                            <strong>ul. Karola Olszewskiego 6,</strong>
+                        </div>
+                        <div>
+                            <strong>25-663</strong>
+                        </div>
+                    </div>
+
+                    <div class="footer-phone">
+                        <div>
+                            <span>telefon kontaktowy</span>
+                        </div>
+                        <div>
+                            <strong>+48 (41) 344 52 24</strong>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+                <div class="footer-text-right">
+
+                    <h1>Zostaw nam wiadomość</h1>
+                    <h2>Odpowiemy na Twoje pytania tak szybko jak to będzie możliwe</h2>
+                </div>
+
+                <div class="form">
+                    <div class="first-section-form">
+                        <input type="text" placeholder="Imię">
+                        <input type="text" placeholder="Nazwisko">
+                    </div>
+                    <div class="first-section-form">
+                        <input type="text" placeholder="Imię">
+                        <input type="text" placeholder="Nazwisko">
+                    </div>
+                    <div class="first-section-form">
+                        <textarea name="" id="" cols="47" rows="10"></textarea>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
 </body>
+
 </html>

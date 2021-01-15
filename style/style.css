@@ -1,119 +1,277 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.nav {
-    padding: 2rem;
-    background-color: white;
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-.nav ul {
-    margin-top: 4.5rem;
-}
-
-.menu {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    /* background-color: #ff6600; */
-     /* display: flex; */
-    /* justify-content: space-between; */
-    /* width: 100%; */
-    /* align-items: center; */
-    /* height: 120%; */
-    z-index: 10;
-}
-.menu li a {
-   width: 100%;
-   height: 100%;
-   /* display: flex; */
-   /* align-items: center; */
-   /* justify-content: center; */
-}
-.menu li {
-    width: 100%;    
-    height: 100%;
-    padding-bottom: 3.7rem;;
-    /* flex-direction: row; */
-}
-.menu li a:hover{
-    background-color: gray;
-    border-bottom: .4em solid #ff6600;
+.page {
+    width: 100%;
 }
 
 header {
-    background-image: url('/images/background-header.png') no-repeat;
-    background-size: cover;
-    height: 100vh;
     display: flex;
-    position: relative;
-    max-width: 1920px;
-    margin: 0 auto;
-
-}
-
-.header-decription {
-    background-color: #3e3e3e;
-    padding: 3.625rem 0  0 3rem   ;
-}
-
-.software-dedicated {
-    position: relative;
-    top: 10.45rem;
-    /* margin-top: 13.48rem; */
-    margin-left: 6.74rem;
-}
-
-.software-dedicated span {
-    font-size: 5rem;
-    color: white;
-}
-
-.contact-box-main {
-    float: right;
-    width: 660px;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    background-color: #fff;
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;
-
-}
-
-.header-box-description {
     width: 100%;
-    display: flex;
-    position: relative;
-    top: 45%;
-    height: 10rem;
-    /* justify-content: left; */
-    left: -50%;
-    padding-right: 7rem;
-}
-
-.header-decription p {
-
-    width: 1120px;
     margin: 0 auto;
-    font-size: 1.5rem;
+    height: 70vh;
+}
 
-    /* padding-right: 4rem; */
-    background-color:#3e3e3e;
+.nav {
+    width: 17%;
+    background-color: white;
     display: flex;
+    justify-content: center;
+    padding: 0;
+  margin: 0;
+  
+}
+
+nav img {
+    padding-bottom: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    margin-top: 3.75rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.kwadrat {
+    display: block;
+    width: 100%;
+    background-color: palegreen;
+}
+
+section.header {
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    /* background-color: red; */
+}
+
+.header-orange {
+    width: 25%;
+    background-color: green;
+}
+
+.header-background {
+    display: flex;
+    background-image: url('/images/background-header.png');
+    background-size: cover;
+    width: 100%;
+}
+
+.header-btn-text {
+    width: 40%;
+    position: relative;
+    left: 6.688rem;
+    top: 9.313rem;
+}
+
+.header-btn-text p {
+    font-size: 5.313rem;
     color: white;
-    /* font-size: 1.125rem; */
+    margin-bottom: 2rem;
 }
 
-
-.icon-description {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.header-btn-text a {
+    text-decoration: none;
+    width: 10%;
+    font-size: 1rem;
     border: 1px solid white;
-    /* background-color: #fff; */
-    padding: 2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    color: white;
 }
+.header-contact-top {
+    background-color: white;
+    width: 41.25rem;
+    height: 4.813rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    /* width: 30%; */
+    justify-content: space-between;
+}
+
+
+.header-contact-top a {
+    color: #fb8727;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight:;
+    
+}
+.header-contact-top span {
+    padding: 1.875 0;
+}
+
+.header-info-bottom {
+
+    display: flex;
+    
+    justify-content: center;
+    background-color: #3e3e3e;
+    width: 100%;
+    height: 11.25rem;
+    position: relative;
+    top: 85%;
+}
+
+.header-info-bottom-text {
+    width: 65%;
+    color: white;
+    align-content: center;
+
+}
+
+.header-info-bottom-icon {
+    /* border: 0.500rem solid white; */
+    width: 30%;
+    /* border-radius: 50% 50%; */
+    /* font-size: 40px */
+
+}
+
+.consultant {
+    font-size: 1rem;
+}
+
+.header-info-bottom-icon a {
+    font-size: 50px;
+    border-radius: 50% 50%;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.header-contact-top {
+    /* display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 30%;
+    justify-content: space-between; */
+}
+
+.icon-between {
+    margin: 0 2rem;
+  }
+
+  .header-contact-top>div {
+    height: 120%;
+    width: 100%;
+    z-index: 10;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .kwadrat
+   {
+       /* width: 100%; */
+       /* height: ; */
+       background-color: red;
+   }
+
+   footer {
+       background: url('/images/footer-right.png');
+       margin-top: 6rem;
+       width: 100%;
+       display: flex;
+   }
+
+
+
+
+
+   .Layer_5_copy {
+    background-image: url("Layer 5 copy.png");
+    left: 725px;
+    top: 3830px;
+    width: 1231px;
+    height: 718px;
+    position: absolute;
+    z-index: 28;
+  }
+  
+
+   .footer-img {
+       width: 40%;
+       background: url('/images/footer-left.png');
+       background-size: cover;
+       /* position: relative; */
+       height: 50vh;
+   }
+
+   .footer-text {
+       width: 50%;
+        /* margin: 0 auto; */
+       /* padding: 10%; */
+       position: relative;
+       left: 45%;
+       top: 20%;
+       
+   }
+
+   .footer-text h1 {
+       color: white;
+   }
+
+   .footer-address {
+       margin-bottom: 2rem;
+   }
+
+   .footer-address div span {
+       color: #3e3e3e;
+   }
+
+   .footer-address strong {
+       font-size: 1.2rem;
+       color: white;
+   }
+
+   .footer-phone strong {
+       font-size: 2rem;
+       color: white;
+   }
+
+   .footer-right {
+       color: white;
+       position: relative;
+       left: 3rem;
+       top: 3rem;
+       /* width: 100%; */
+       /* top: 6%; */
+   }
+
+   .first-section-form input {
+
+       width: 3.563rem;
+   }
+
+   .footer-text-right {
+       margin-bottom: 3rem;
+   }
+
+   .footer-text-right h1 {
+       font-size: 2rem;
+   }
+
+   .footer-text-right h2 {
+       font-size: 1.5rem;
+   }
