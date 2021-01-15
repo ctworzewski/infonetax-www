@@ -181,6 +181,39 @@ section.header {
     justify-content: center;
   }
 
+
+  main {
+      width: 100%;
+      background-color: turquoise;
+  }
+
+  .main {
+      display: flex;
+      flex-direction: wrap;
+      /* flex-direction: column; */
+      width: 71%;
+      margin: 0 auto;
+      background-color: darkgrey;
+  }
+
+  .main-content-box-offer {
+      width: 400px;
+  }
+ .main-content-box-offer span {
+     text-transform: uppercase;
+     font-size: 1.2rem;
+     /* color: #fb8727; */
+
+
+
+        font-family: "Roboto";
+        color: rgb(251, 135, 39);
+        line-height: 1.8;
+        text-align: left;
+        font-weight: bold;
+    
+      
+ }
   .kwadrat
    {
        /* width: 100%; */
@@ -251,6 +284,7 @@ section.header {
    }
 
    .footer-right {
+       w60%
        color: white;
        position: relative;
        left: 3rem;
@@ -259,9 +293,20 @@ section.header {
        /* top: 6%; */
    }
 
+   form {
+       width: 100%;
+   }
+
+   
+
    .first-section-form input {
 
-       width: 3.563rem;
+       width: 13.563rem;
+       height: 4rem;
+       border-radius: 2rem;
+       background-color: #fb8727;
+       border: 1px solid white;
+       margin-left: 4rem;
    }
 
    .footer-text-right {
