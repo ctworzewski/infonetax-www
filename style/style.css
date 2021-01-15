@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.nav {
+    padding: 2rem;
+    background-color: white;
+}
+
+.nav ul {
+    margin-top: 4.5rem;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /* background-color: #ff6600; */
+     /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    /* align-items: center; */
+    /* height: 120%; */
+    z-index: 10;
+}
+.menu li a {
+   width: 100%;
+   height: 100%;
+   /* display: flex; */
+   /* align-items: center; */
+   /* justify-content: center; */
+}
+.menu li {
+    width: 100%;    
+    height: 100%;
+    padding-bottom: 3.7rem;;
+    /* flex-direction: row; */
+}
+.menu li a:hover{
+    background-color: gray;
+    border-bottom: .4em solid #ff6600;
+}
+
+header {
+    background-image: url('/images/background-header.png') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+
+}
+
+.header-decription {
+    background-color: #3e3e3e;
+    padding: 3.625rem 0  0 3rem   ;
+}
+
+.software-dedicated {
+    position: relative;
+    top: 10.45rem;
+    /* margin-top: 13.48rem; */
+    margin-left: 6.74rem;
+}
+
+.software-dedicated span {
+    font-size: 5rem;
+    color: white;
+}
+
+.contact-box-main {
+    float: right;
+    width: 660px;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+
+}
+
+.header-box-description {
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 45%;
+    height: 10rem;
+    /* justify-content: left; */
+    left: -50%;
+    padding-right: 7rem;
+}
+
+.header-decription p {
+
+    width: 1120px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+
+    /* padding-right: 4rem; */
+    background-color:#3e3e3e;
+    display: flex;
+    color: white;
+    /* font-size: 1.125rem; */
+}
+
+
+.icon-description {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    /* background-color: #fff; */
+    padding: 2rem;
+}
